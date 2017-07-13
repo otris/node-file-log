@@ -1,0 +1,29 @@
+{
+  "name": "node-file-log",
+  "version": "1.0.0",
+  "description": "File logger for Node.js written in TypeScript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/otris/node-file-log"
+  },
+  "license": "MIT",
+  "main": "out/src/log.js",
+  "types": "node-file-log.d.ts",
+  "publisher": "otris-software",
+  "author": {
+    "name": "otris-software",
+    "email": "rosendahl@otris.de"
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "postinstall": "tsc -p ./",
+    "lint": "tslint src/*.ts"
+  },
+  "devDependencies": {
+    "typescript": "^2.4.1",
+    "tslint": "^5.3.2"
+  },
+  "dependencies": {
+    "@types/node": "^7.0.4"
+  }
+}
