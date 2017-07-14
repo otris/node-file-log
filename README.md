@@ -9,6 +9,3 @@ $ npm install --save git+https://git@github.com/otris/node-file-log#1.0.0
 ```
 Note that there is no npm package. You should always just use the latest
 release tag if in doubt.
-
-## Current Status
-Work-In-Progress. Do not use it for the moment.
