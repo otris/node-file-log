@@ -5,7 +5,8 @@ export enum LogLevel {
     Debug,
     Info,
     Warn,
-    Error
+    Error,
+    None,
 }
 
 export function LogLevelFromString(logLevelString: string): LogLevel {
@@ -21,6 +22,9 @@ export function LogLevelFromString(logLevelString: string): LogLevel {
 
         case 'Error':
             return LogLevel.Error;
+
+        case 'None':
+            return LogLevel.None;
 
         default:
             throw new Error("${logLevelString} cannot be translated to a LogLevel");
