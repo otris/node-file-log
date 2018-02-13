@@ -50,7 +50,7 @@ export class Logger {
     private static _config: LogConfiguration = {};
     private static startTime = Date.now();
 
-    private logLevel: LogLevel;
+    private logLevel: LogLevel = LogLevel.None;
 
     constructor(private name: string) {
         this.configure();

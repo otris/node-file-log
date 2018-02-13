@@ -23,7 +23,7 @@
     "tslint": "^5.3.2"
   },
   "dependencies": {
-    "typescript": "2.4.1",
+    "typescript": "2.7.1",
     "@types/node": "^7.0.4"
   }
 }
