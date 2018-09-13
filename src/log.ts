@@ -38,7 +38,6 @@ export interface LogConfiguration {
     logLevel?: { [logName: string]: LogLevel };
 }
 
-
 export class Logger {
     public static fd: number | undefined;
 
@@ -99,7 +98,7 @@ export class Logger {
         const logLine = displayLevel + '|' + elapsedTimeString + '|' + this.name + ': ' + msg;
 
         if ((Logger.fd !== undefined)) {
-            fs.write(Logger.fd, logLine + '\n');
+            fs.writeSync(Logger.fd, logLine + '\n');
         }
     }
 
