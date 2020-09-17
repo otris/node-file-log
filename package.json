@@ -1,6 +1,6 @@
 {
   "name": "node-file-log",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "File logger for Node.js written in TypeScript",
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
     "tslint": "^5.3.2"
   },
   "dependencies": {
-    "typescript": "2.7.1",
-    "@types/node": "^7.0.4"
+    "typescript": "^3.7.0",
+    "@types/node": "^7.0.22"
   }
 }
