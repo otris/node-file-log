@@ -1,6 +1,6 @@
 {
   "name": "node-file-log",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "File logger for Node.js written in TypeScript",
   "repository": {
     "type": "git",
